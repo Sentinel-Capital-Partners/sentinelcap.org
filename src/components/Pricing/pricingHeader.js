@@ -4,15 +4,6 @@ import Fade from "react-reveal/Fade"
 const PricingHeader = () => {
   return (
     <div className="max-w-7xl mx-auto mt-10 font-poppins text-white flex flex-col items-center">
-      <Fade bottom>
-        <h1 className="text-6xl font-bold m-5 xxs:text-xl sm:text-4xl lg:text-6xl">
-          Simple, transparent pricing
-        </h1>
-        <h2 className="text-base opacity-50 text-center xxs:text-sm sm:text-lg">
-          Get the Circle plan that fits your needsata a special introductory
-          price.
-        </h2>
-      </Fade>
       <Fade bottom cascade>
         <div className="grid grid-cols-2 gap-4 mt-10 xxs:grid-cols-1 sm:grid-cols-2">
           <div className="bg-lightblack p-10 rounded-xl">

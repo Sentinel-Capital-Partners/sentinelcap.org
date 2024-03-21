@@ -7,7 +7,9 @@ const Careers = () => {
   return (
     <Layout>
       <CareersHeader></CareersHeader>
-      <CareersRoles></CareersRoles>
+      {/*
+			<CareersRoles></CareersRoles>
+			*/}
     </Layout>
   )
 }

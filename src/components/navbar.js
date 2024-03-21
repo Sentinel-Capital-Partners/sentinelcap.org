@@ -1,6 +1,8 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
 
+import Logo from "../images/logo-white.png"
+
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false)
   return (
@@ -9,10 +11,16 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="w-full justify-between flex items-center">
             <a className="text-white flex-shrink-0 font-poppins" href="/">
-              Circle
+              <img className="h-12 w-12" src={Logo} alt="Logo" />
             </a>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
+                <Link
+                  className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
+                  to="/"
+                >
+                  Home
+                </Link>
                 <Link
                   className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
                   to="/about"
@@ -21,15 +29,9 @@ const Navbar = () => {
                 </Link>
                 <Link
                   className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
-                  to="/blog"
+                  to="/team"
                 >
-                  Blog
-                </Link>
-                <Link
-                  className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
-                  to="/pricing"
-                >
-                  Pricing
+                  Team
                 </Link>
                 <Link
                   className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"
@@ -70,25 +72,31 @@ const Navbar = () => {
           <div className="md-px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a
               className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              href="/#"
+              href="/"
             >
               Home
             </a>
             <a
-              className="text-gray-800 dark:text-white block px-3 py-2 rounded-md text-base font-medium"
-              href="/#"
+              className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              href="/about"
             >
-              Gallery
+              About
             </a>
             <a
               className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              href="/#"
+              href="/team"
             >
-              Content
+              Team
             </a>
             <a
               className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              href="/#"
+              href="/careers"
+            >
+              Careers
+            </a>
+            <a
+              className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              href="/contact"
             >
               Contact
             </a>

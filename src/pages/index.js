@@ -4,7 +4,6 @@ import Layout from "../components/layout"
 // Components
 import Header from "../components/Home/header"
 import FeatureSection from "../components/Home/featureSection"
-import FeaturedBlog from "../components/FeaturedBlog"
 
 const IndexPage = () => (
   <div className="h-auto w-screen">

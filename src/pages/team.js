@@ -1,9 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
 import Fade from "react-reveal/Fade"
-import PricingHeader from "../components/Pricing/pricingHeader"
-//import PricingFAQ from "../components/Pricing/pricingFAQ"
-//import PricingCTA from "../components/Pricing/pricingCTA"
 import AboutGrid from "../components/about/aboutGrid"
 
 const Team = () => {
@@ -15,7 +12,7 @@ const Team = () => {
             Our Team
           </h1>
           <h2 className="text-white opacity-50 text-center xxs:text-sm sm:text-lg">
-            General Partners of Lambda Capital
+            General Partners of Sentinel Capital Partners
           </h2>
         </Fade>
       </div>

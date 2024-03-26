@@ -12,7 +12,7 @@ const Header = () => {
 
           <h1 className="text-white font-poppins font-semibold text-2xl xxs:text-2xl xs:text-3xl sm:text-3xl md:text-3xl lg:text-5xl xl:text-5xl 2xl:text-6xl">
             <span class="text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-              LAMBDA CAPITAL
+              SENTINEL CAPITAL PARTNERS
             </span>
             <br></br>
             Shaping financial frontiers with disruptive innovation
